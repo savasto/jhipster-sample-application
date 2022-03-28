@@ -1,0 +1,27 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "rating": {
+      "home": {
+        "title": "Ratings",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Rating",
+        "createOrEditLabel": "Создать или отредактировать Rating",
+        "notFound": "Ratings не найдено"
+      },
+      "created": "Новый Rating создан с идентификатором {{ param }}",
+      "updated": "Rating обновлен с идентификатором {{ param }}",
+      "deleted": "Rating удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Rating {{ id }}?"
+      },
+      "detail": {
+        "title": "Rating"
+      },
+      "id": "ID",
+      "rating": "Rating",
+      "date": "Date",
+      "rating": "Rating",
+      "rating": "Rating"
+    }
+  }
+}
