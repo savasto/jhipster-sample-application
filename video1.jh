@@ -1,0 +1,21 @@
+
+entity Video {
+	url String,
+    description String,
+    title String,
+    size Integer
+}
+
+entity Rating {
+	rating String
+    date ZonedDateTime 
+}
+
+relationship ManyToOne {
+	Video{video(title)} to User,
+	Rating{rating} to User,
+	Rating{rating} to Video
+}
+
+service all with serviceClass
+
