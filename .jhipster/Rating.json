@@ -1,0 +1,37 @@
+{
+  "applications": "*",
+  "changelogDate": "20220328084215",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "rating",
+  "fields": [
+    {
+      "fieldName": "rating",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Rating",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "rating",
+      "relationshipName": "rating",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "video",
+      "otherEntityRelationshipName": "rating",
+      "relationshipName": "rating",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}
