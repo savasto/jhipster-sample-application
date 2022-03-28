@@ -1,0 +1,36 @@
+{
+  "applications": "*",
+  "changelogDate": "20220328094453",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "video",
+  "fields": [
+    {
+      "fieldName": "url",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Video",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "title",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "video",
+      "relationshipName": "video",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}
