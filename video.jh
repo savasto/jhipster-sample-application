@@ -1,0 +1,24 @@
+
+entity Video {
+	url String,
+    description String,
+    title String
+}
+
+entity Rating {
+	rating String
+    date ZonedDateTime 
+}
+
+enum Language {
+    FRENCH, ENGLISH, SPANISH
+}
+
+relationship ManyToOne {
+	Video{video(title)} to User,
+	Rating{rating} to User,
+	Rating{rating} to Video
+}
+
+service all with serviceClass
+
