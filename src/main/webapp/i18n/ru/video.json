@@ -1,0 +1,28 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "video": {
+      "home": {
+        "title": "Videos",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Video",
+        "createOrEditLabel": "Создать или отредактировать Video",
+        "notFound": "Videos не найдено"
+      },
+      "created": "Новый Video создан с идентификатором {{ param }}",
+      "updated": "Video обновлен с идентификатором {{ param }}",
+      "deleted": "Video удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Video {{ id }}?"
+      },
+      "detail": {
+        "title": "Video"
+      },
+      "id": "ID",
+      "url": "Url",
+      "description": "Description",
+      "title": "Title",
+      "videoSize": "Video Size",
+      "user": "User"
+    }
+  }
+}
